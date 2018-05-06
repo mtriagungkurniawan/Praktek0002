@@ -9,5 +9,12 @@ public class KainAksi {
      r1.cetakinfo();
      System.out.println("Luas kain = "+r1.hitungUkuran());
      r1.cetakUkuran();
-   } 
+   
+     Kain r2 = new Kain();
+     r2.cetakinfo();
+     
+     Kain r3 = new Kain(60,20);
+     r3.cetakinfo();
+   
+     }
 }

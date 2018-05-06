@@ -3,11 +3,16 @@ public class Kain {
     double panjang;
     double lebar;
     
-       public Kain() {
+    public Kain() {
         panjang=5;
         lebar=2;
     }
-    
+
+    public Kain(double panjang, double lebar) {
+        this.panjang = panjang;
+        this.lebar = lebar;
+    }
+       
     void cetakinfo() {
         System.out.println("====================");
         System.out.println("Panjang : "+panjang);
@@ -23,9 +28,4 @@ public class Kain {
          System.out.println("Luasnya adalah: "+hitungUkuran());
     }
 }
-    
-  
-}
-        
-    
-   
+       
