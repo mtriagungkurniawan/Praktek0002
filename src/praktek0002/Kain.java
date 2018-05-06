@@ -9,4 +9,13 @@ public class Kain {
         System.out.println("Lebar :"+lebar);
         System.out.println("====================");
     }
+     double hitungUkuran(){
+        double ukuran;
+        ukuran=panjang*lebar;
+        return ukuran;
+    
+    }
 }
+        
+    
+   
