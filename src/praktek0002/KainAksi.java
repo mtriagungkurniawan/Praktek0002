@@ -8,5 +8,6 @@ public class KainAksi {
    
      r1.cetakinfo();
      System.out.println("Luas kain = "+r1.hitungUkuran());
+     r1.cetakUkuran();
    } 
 }
